@@ -1,15 +1,22 @@
 <template>
   <div>
-    <DataComp />
+    <!-- <DataComp /> -->
+    <!-- <DemoOne /> -->
+    <DemoTwo />
   </div>
 </template>
 
 <script>
-import DataComp from "./components/DataComp.vue";
+// import DataComp from "./components/DataComp.vue";
+// import DemoOne from "./components/DemoOne.vue";
+import DemoTwo from "./components/DemoTwo.vue";
+
 export default {
   name: "App",
   components: {
-    DataComp,
+    // DataComp,
+    // DemoOne,
+    DemoTwo,
   },
 };
 </script>
