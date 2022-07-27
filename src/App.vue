@@ -5,7 +5,9 @@
     <!-- <DemoOne /> -->
     <!-- <DemoTwo /> -->
 
-    <MethodsComp />
+    <!-- <MethodsComp /> -->
+
+    <VModel />
   </div>
 </template>
 
@@ -13,7 +15,8 @@
 // import DataComp from "./components/DataComp.vue";
 // import DemoOne from "./components/DemoOne.vue";
 // import DemoTwo from "./components/DemoTwo.vue";
-import MethodsComp from "./components/MethodsComp.vue";
+// import MethodsComp from "./components/MethodsComp.vue";
+import VModel from "./components/VModel.vue";
 
 export default {
   name: "App",
@@ -21,7 +24,8 @@ export default {
     // DataComp,
     // DemoOne,
     // DemoTwo,
-    MethodsComp,
+    // MethodsComp,
+    VModel,
   },
 };
 </script>
