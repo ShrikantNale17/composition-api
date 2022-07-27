@@ -7,7 +7,9 @@
 
     <!-- <MethodsComp /> -->
 
-    <VModel />
+    <!-- <VModel /> -->
+
+    <ComputedComp />
   </div>
 </template>
 
@@ -16,7 +18,8 @@
 // import DemoOne from "./components/DemoOne.vue";
 // import DemoTwo from "./components/DemoTwo.vue";
 // import MethodsComp from "./components/MethodsComp.vue";
-import VModel from "./components/VModel.vue";
+// import VModel from "./components/VModel.vue";
+import ComputedComp from "./components/ComputedComp.vue";
 
 export default {
   name: "App",
@@ -25,7 +28,8 @@ export default {
     // DemoOne,
     // DemoTwo,
     // MethodsComp,
-    VModel,
+    // VModel,
+    ComputedComp,
   },
 };
 </script>
