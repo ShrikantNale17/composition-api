@@ -15,7 +15,9 @@
 
     <!-- <ProvideInject /> -->
 
-    <TemplateRef />
+    <!-- <TemplateRef /> -->
+
+    <PersonComp />
   </div>
 </template>
 
@@ -28,7 +30,8 @@
 // import ComputedComp from "./components/ComputedComp.vue";
 // import WatchComp from "./components/WatchComp.vue";
 // import ProvideInject from "./components/ProvideInject.vue";
-import TemplateRef from "./components/TemplateRef.vue";
+// import TemplateRef from "./components/TemplateRef.vue";
+import PersonComp from "./components/PersonComp.vue";
 
 export default {
   name: "App",
@@ -41,7 +44,8 @@ export default {
     // ComputedComp,
     // WatchComp,
     // ProvideInject,
-    TemplateRef,
+    // TemplateRef,
+    PersonComp,
   },
 };
 </script>
