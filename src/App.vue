@@ -17,7 +17,10 @@
 
     <!-- <TemplateRef /> -->
 
-    <PersonComp />
+    <!-- <PersonComp /> -->
+
+    <ClickedCounter />
+    <HoveredCounter />
   </div>
 </template>
 
@@ -31,7 +34,9 @@
 // import WatchComp from "./components/WatchComp.vue";
 // import ProvideInject from "./components/ProvideInject.vue";
 // import TemplateRef from "./components/TemplateRef.vue";
-import PersonComp from "./components/PersonComp.vue";
+// import PersonComp from "./components/PersonComp.vue";
+import ClickedCounter from "./components/ClickedCounter.vue";
+import HoveredCounter from "./components/HoveredCounter.vue";
 
 export default {
   name: "App",
@@ -45,7 +50,9 @@ export default {
     // WatchComp,
     // ProvideInject,
     // TemplateRef,
-    PersonComp,
+    // PersonComp,
+    ClickedCounter,
+    HoveredCounter,
   },
 };
 </script>
