@@ -2,7 +2,11 @@
   <div>
     <input type="text" placeholder="first name" v-model="firstName" />
     <input type="text" placeholder="last name" v-model="lastName" />
-    <PersonGreeting :firstName="firstName" :lastName="lastName" />
+    <PersonGreeting
+      :firstName="firstName"
+      :lastName="lastName"
+      @callHeroes="callHeroes"
+    />
   </div>
 </template>
 
@@ -19,9 +23,14 @@ export default {
     const firstName = ref("");
     const lastName = ref("");
 
+    function callHeroes(hero) {
+      alert(`Hello ${hero}`);
+    }
+
     return {
       firstName,
       lastName,
+      callHeroes,
     };
   },
 };
